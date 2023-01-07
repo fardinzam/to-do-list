@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  
+  <body>
+    <div id="heading">
+      <h1>☑️ Tasks</h1>
+    </div>
+
+    <div id="table-main">
+      <div id="table-header">
+        <div class="header-items" id="status">☑️</div>
+        <div class="header-items" id="task">📋 Task name</div>
+        <div class="header-items" id="date">🗓️ Date</div>
+        <div class="header-items" id="time">⏲ Time</div>
+      </div>
+      <div class="entry">
+        <div class="status-entry">☑️</div>
+        <div class="task-entry">Enter task here</div>
+        <div class="date-entry">Enter date here</div>
+        <div class="time-entry">enter time here</div>
+      </div>
+
+
+      <button id="new-entry" onclick="duplicate()">+ New</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+ 

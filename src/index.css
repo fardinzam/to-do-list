@@ -1,0 +1,97 @@
+html {
+  display: table;
+  margin: auto;
+  align-items: center;
+  padding: 0px;
+  margin: 30px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 100%;
+  padding: 2rem;
+  background-color: #F7F7FF;
+  color: #333333;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* #heading {
+  margin: 40px;
+} */
+
+/* the whole table */
+#table-main {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+/* the first row */
+#table-header {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  border-top: #e8e8e6 solid 1px;
+  border-bottom: #e8e8e6 solid 1px;
+}
+.header-items {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  color: #9d9c9a;
+  border-right: #e8e8e6 solid 1px;
+}
+#status {
+  width: 3vw;
+}
+#task {
+  width: 59vw;
+}
+#date {
+  width: 10vw;
+}
+#time {
+  width: 10vw;
+  border-right: transparent;
+}
+
+/* the task entries are here */
+.entry {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  color: #9d9c9a;
+  border: #e8e8e6 solid 1px;
+}
+.status-entry {
+  width: 3vw;
+}
+.task-entry {
+  width: 59vw;
+}
+.date-entry {
+  width: 10vw;
+}
+.time-entry {
+  width: 10vw;
+  border-right: transparent;
+}
+
+/* the button for adding a new entry */
+#new-entry {
+  color: #9d9c9a;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: flex-start;
+  margin: 0px;
+  background-color: transparent;
+  width: 90vw;
+  border: transparent;
+  border-bottom: #e8e8e6 solid 1px;
+}
+#new-entry:hover {
+  background-color: #e5e5e5;
+}
